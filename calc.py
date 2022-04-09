@@ -17,7 +17,7 @@ start = P
 for i in range(1,t+1):
     end = (start + freq*inv)*(1+r)
     year_amount['Year ',str(i)] = end
-    start = end
+    start = en
 
 print(year_amount)
 
